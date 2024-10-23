@@ -1,0 +1,59 @@
+.HomePlan {
+  padding: 3rem 0rem;
+  width: 100%;
+  /* background-color: white; */
+  /* background-image: url(); */
+}
+
+.HomePlan-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.homeplan-box {
+  display: flex;
+  gap: 2rem;
+}
+
+.homeplan-left {
+  width: 45%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+.homeplan-left h3 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+.homeplan-right {
+  width: 55%;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+}
+
+@media (min-width: 1200px) {
+  .HomePlan-main {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .homeplan-box {
+    flex-wrap: wrap;
+  }
+
+  .homeplan-left,
+  .homeplan-right {
+    width: 100%;
+  }
+  .homeplan-left h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+  }
+}
