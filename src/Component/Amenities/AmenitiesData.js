@@ -30,21 +30,15 @@ const AmenitiesData = [
         color:"#fff6e2"
     },
     {
-        id: 6,
-        title: "King Size Beds",
-        cover: <LiaBedSolid />,
-        color:"white"
-    },
-    {
         id: 5,
         title: "Swimming Pool",
         cover: <PiSwimmingPoolLight  />,
         color:"#fff6e2"
     },
     {
-        id: 8,
-        title: "Medical Center",
-        cover: <CiMedicalCase />,
+        id: 6,
+        title: "King Size Beds",
+        cover: <LiaBedSolid />,
         color:"white"
     },
     {
@@ -54,16 +48,10 @@ const AmenitiesData = [
         color:"#fff6e2"
     },
     {
-        id: 9,
+        id: 8,
         title: "Medical Center",
         cover: <CiMedicalCase />,
         color:"white"
-    },
-    {
-        id: 10,
-        title: "Medical Center",
-        cover: <CiMedicalCase />,
-        color:"#fff6e2"
     },
 ]
 

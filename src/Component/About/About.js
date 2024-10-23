@@ -25,7 +25,7 @@ const About = () => {
                             <p>The privileged community at Prestige City has benefited from a splendid clubhouse that creates a beautiful social niche for people. Convenient well well-maintained gardens and new building completions have added aesthetically to the living environment, turning homes into beautiful, comfortable, and satisfying apartment complexes.</p>
                         </div>
                         <div className="about-button">
-                            <Link to="/site-visit" onClick={toTop}>
+                            <Link to="/prestige/site-visit" onClick={toTop}>
                                 <p>Interested in Site Visit ?</p>
                             </Link>
                         </div>

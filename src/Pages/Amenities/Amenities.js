@@ -1,12 +1,14 @@
 import React from 'react'
-import AmenitiesData from './AmenitiesData'
 import "./Amenities.css"
+import AmenitiesData from '../../Component/Amenities/AmenitiesData'
 
 const Amenities = () => {
     return (
-        <div className='Amenities'>
-            <div className='Amenities-main'>
-                <h2>Amenities</h2>
+        <div className='Amenities-page'>
+             <div className='SiteVisit-main'>
+                <div className="Page-title">
+                    <h1>The Prestige City Amenities</h1>
+                </div>
                 <div className='Amenities-box'>
                     {AmenitiesData.map((item, index) => (
                         <div className='Amenities-card' style={{ backgroundColor: `${item.color}` }}>
@@ -16,7 +18,7 @@ const Amenities = () => {
                     ))}
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
 

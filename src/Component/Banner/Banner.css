@@ -57,7 +57,7 @@
   font-weight: 300;
   font-size: 18px;
   padding: 12px 24px;
-  background-color: rgba(255, 255, 255, 0.336);
+  background-color:#ffffff54;
   border-radius: 25px;
 }
 .banner-stick-box p {
@@ -100,5 +100,8 @@
   }
   .banner-stick-box span {
     font-size: 25px;
+  }
+  .banner-stick-box h5 {
+    background-color:#202020;
   }
 }

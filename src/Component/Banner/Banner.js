@@ -27,7 +27,7 @@ const Banner = () => {
                         <h2>The Prestige City</h2>
                         {/* <span>Premium 3 / 4 BHK Residence | Price Starts <span> ₹ 4.95 Cr*</span> </span> */}
                         <p>
-                            <Link to="/site-visit" onClick={toTop}>
+                            <Link to="/prestige/site-visit" onClick={toTop}>
                                 Enquire Now <FaArrowRightLong />
                             </Link>
                         </p>

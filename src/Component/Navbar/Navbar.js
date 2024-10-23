@@ -67,7 +67,7 @@ const Navbar = (props) => {
                                 <div className="company-logo-box">
                                     <Link
                                         className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
-                                        to="/"
+                                        to="/prestige"
                                         // onClick={() => handleLinkClick('/')}
                                     >
                                         {/* <h5>DLF Moti Nagar</h5> */}
@@ -95,7 +95,7 @@ const Navbar = (props) => {
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
-                                                to="/"
+                                                to="/prestige"
                                                 onClick={() => handleLinkClick('/')}
                                             >
                                                 Home
@@ -103,8 +103,17 @@ const Navbar = (props) => {
                                         </li>
                                         <li className="nav-item">
                                             <Link
+                                                className={`nav-link ${activeLink === '/amenities' ? 'active' : ''}`}
+                                                to="/prestige/amenities"
+                                                onClick={() => handleLinkClick('/amenities')}
+                                            >
+                                                Amenities
+                                            </Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link
                                                 className={`nav-link ${activeLink === '/gallery' ? 'active' : ''}`}
-                                                to="/gallery"
+                                                to="/prestige/gallery"
                                                 onClick={() => handleLinkClick('/gallery')}
                                             >
                                                 Gallery
@@ -113,37 +122,37 @@ const Navbar = (props) => {
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/price-list' ? 'active' : ''}`}
-                                                to="/price-list"
+                                                to="/prestige/price-list"
                                                 onClick={() => handleLinkClick('/price-list')}
                                             >Price List</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/master-plan' ? 'active' : ''}`}
-                                                to="/master-plan"
+                                                to="/prestige/master-plan"
                                                 onClick={() => handleLinkClick('/master-plan')}
                                             >Master Plan</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/floor-plan' ? 'active' : ''}`}
-                                                to="/floor-plan"
+                                                to="/prestige/floor-plan"
                                                 onClick={() => handleLinkClick('/floor-plan')}
                                             >Floor Plan</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/location' ? 'active' : ''}`}
-                                                to="/location"
+                                                to="/prestige/location"
                                                 onClick={() => handleLinkClick('/location')}
                                             >Location</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/site-visit' ? 'active' : ''}`}
-                                                to="/site-visit"
+                                                to="/prestige/site-visit"
                                                 onClick={() => handleLinkClick('/site-visit')}
-                                            >Book A Site Visit</Link>
+                                            >Site Visit</Link>
                                         </li>
                                         <div className="nav-action">
                                             <div className="call-button">

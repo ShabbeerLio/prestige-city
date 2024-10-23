@@ -11,11 +11,12 @@ import MasterPlan from "./Pages/MasterPlan/MasterPlan";
 import FloorPlan from "./Pages/FloorPlan/FloorPlan";
 import SiteVisit from "./Pages/SiteVisit/SiteVisit";
 import Disclaimer from "./Pages/Disclaimer/Disclaimer";
+import Amenities from "./Pages/Amenities/Amenities";
 
 function App() {
 
-  const title = "DLF Modi Nagar"
-  const descriptions = "DLF modi Nagar"
+  const title = "The Prestige City: Luxury Living in The Prestige City"
+  const descriptions = "Discover luxury living at The Prestige City. Experience an elevated lifestyle in the prestigious community of The Prestige City."
 
   // remove inspect and copy element
   //  useEffect(() => {
@@ -43,42 +44,47 @@ function App() {
         <Navbar />
         <Routes>
           <Route
-            path="/"
+            path="/prestige"
             exact
             element={
               <Home title={title} descriptions={descriptions} />} />
           <Route
-            path="/gallery"
+            path="/prestige/amenities"
+            exact
+            element={
+              <Amenities title={title} descriptions={descriptions} />} />
+          <Route
+            path="/prestige/gallery"
             exact
             element={
               <Gallery title={title} descriptions={descriptions} />} />
           <Route
-            path="/price-list"
+            path="/prestige/price-list"
             exact
             element={
               <PriceList title={title} descriptions={descriptions} />} />
           <Route
-            path="/master-plan"
+            path="/prestige/master-plan"
             exact
             element={
               <MasterPlan title={title} descriptions={descriptions} />} />
           <Route
-            path="/floor-plan"
+            path="/prestige/floor-plan"
             exact
             element={
               <FloorPlan title={title} descriptions={descriptions} />} />
           <Route
-            path="/location"
+            path="/prestige/location"
             exact
             element={
               <Location title={title} descriptions={descriptions} />} />
           <Route
-            path="/site-visit"
+            path="/prestige/site-visit"
             exact
             element={
               <SiteVisit title={title} descriptions={descriptions} />} />
           <Route
-            path="/disclaimer"
+            path="/prestige/disclaimer"
             exact
             element={
               <Disclaimer title={title} descriptions={descriptions} />} />
