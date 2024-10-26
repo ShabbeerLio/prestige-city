@@ -33,25 +33,25 @@ const Footer = (props) => {
                         <h3>Inportant Links</h3>
                         <ul>
                             <li>
-                                <Link to="/prestige" onClick={toTop}>Home</Link>
+                                <Link to="/" onClick={toTop}>Home</Link>
                             </li>
                             <li>
-                                <Link to="/prestige/gallery" onClick={toTop}>Gallery</Link>
+                                <Link to="/gallery" onClick={toTop}>Gallery</Link>
                             </li>
                             <li>
-                                <Link to="/prestige/price-list" onClick={toTop}>Price List</Link>
+                                <Link to="/price-list" onClick={toTop}>Price List</Link>
                             </li>
                             <li>
-                                <Link to="/prestige/master-plan" onClick={toTop}>Master Plan</Link>
+                                <Link to="/master-plan" onClick={toTop}>Master Plan</Link>
                             </li>
                             <li>
-                                <Link to="/prestige/floor-plan" onClick={toTop}>Floor Plan</Link>
+                                <Link to="/floor-plan" onClick={toTop}>Floor Plan</Link>
                             </li>
                             <li>
-                                <Link to="/prestige/location" onClick={toTop}>Location</Link>
+                                <Link to="/location" onClick={toTop}>Location</Link>
                             </li>
                             <li>
-                                <Link to="/prestige/site-visit" onClick={toTop}>Book a Site Visit</Link>
+                                <Link to="/site-visit" onClick={toTop}>Book a Site Visit</Link>
                             </li>
                         </ul>
 
